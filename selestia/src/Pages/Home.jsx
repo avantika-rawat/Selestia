@@ -45,12 +45,12 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-6">
             {/* Replace these with your images */}
             <img
-              src="your-candle1.jpg"
+              src="./img-1-min.jpg"
               alt="Candle 1"
               className="rounded-lg shadow-md object-cover w-full h-56"
             />
             <img
-              src="your-candle2.jpg"
+              src="./img-2-min.jpg"
               alt="Candle 2"
               className="rounded-lg shadow-md object-cover w-full h-56"
             />
