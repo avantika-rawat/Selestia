@@ -5,12 +5,28 @@ const candles = [
   { id: 1, title: "Blue Teddy bear Candle", price: 199, image: "./candle-img/teady-bear.jpeg" },
   { id: 2, title: "Rainbow Candle", price: 250, image: "./candle-img/rainbow-candle.jpeg" },
   { id: 3, title: "Rose Bouquet Candle", price: 188, image: "./candle-img/rose-boquet-candle.jpeg" },
-  { id: 4, title: "Dark Amber Scented Candle", price: 188, image: "./candle-img/bouquet-candle-stand.jpeg" },
-  { id: 5, title: "Aqua Bergamot Scented", price: 170, image: "./candle-img/teady-bear.jpeg" },
-  { id: 6, title: "Striped Ceramic Decorative", price: 25.0, image: "./candle-img/teady-bear.jpeg" },
-  { id: 7, title: "Signature Collection III", price: 25.0, image: "./candle-img/teady-bear.jpeg" },
-  { id: 8, title: "Absolute Linen Scented", price: 25.0, image: "./candle-img/teady-bear.jpeg" },
-  { id: 9, title: "Candle White Tea", price: 25.0, image: "./candle-img/teady-bear.jpeg" },
+
+  { id: 4, title: "Baby Pink Rose Candle", price: 79, image: "./candle-img/babypink-rose-candle.jpeg" },
+  { id: 5, title: "Light Blue Rose Candle", price: 79, image: "./candle-img/blue-rose-candle.jpeg" },
+  { id: 6, title: "Pink Rose Candle (M)", price: 89.0, image: "./candle-img/pink-big-rose-candle.png" },
+  { id: 7, title: "Blue Rose Candle (M)", price: 89.0, image: "./candle-img/blue-big-rose-candle.png" },
+  { id: 8, title: "Red Rose Candle", price: 79, image: "./candle-img/red-rose-candle.jpeg" },
+  { id: 9, title: "Purple Rose Candle (M)", price: 89.0, image: "./candle-img/purple-big-rose-candle.png" },
+  
+
+   { id:10, title: "Baby Pink Designed Rose Candle", price: 109, image: "./candle-img/babypink-designed-rose-candle.png" },
+  { id: 11, title: "Light Blue Designed Rose Candle", price: 79, image: "./candle-img/lightblue-designed-rose-candle.png" },
+  { id: 12, title: "Rose Candle Combo of 3 (M)", price: 249, image: "./candle-img/combo-big-roses-candles.png" },
+  { id: 13, title: "Sunflower Candle", price: 60.0, image: "./candle-img/sunflower-candle.png" },
+  { id: 14, title: "Hot Pink Rose Candle", price: 79, image: "./candle-img/darkpink-rose-designed-candle.png" },
+  { id: 15, title: "Purple Rose Candle (M)", price: 120.0, image: "./candle-img/pink&blue-rose-candle.png" },
+  { id: 15, title: "Babypink Heart Candle", price: 60.0, image: "./candle-img/babypink-heart-small-candle.png" },
+
+  { id: 15, title: "Purple Rose Candle (M)", price: 120.0, image: "./candle-img/pink&blue-rose-candle.png" },
+  { id: 15, title: "Red Heart Candle", price: 60.0, image: "./candle-img/heart-red-candle.png" },
+  { id: 15, title: "Laddo Candle (2pcs)", price: 90.0, image: "./candle-img/laddo-candle.png" },
+  { id: 15, title: "Pink Flower Candle", price: 90.0, image: "./candle-img/pink-flower-candle.png" },
+
 ];
 
 export default function Candles() {
