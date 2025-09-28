@@ -41,16 +41,17 @@ export default function Candles() {
       </h1>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 justify-items-center px-30">
-        {candles.map((candle) => (
-          <CandleCard
-            key={candle.id}
-            image={candle.image}
-            title={candle.title}
-            price={candle.price}
-          />
-        ))}
-      </div>
+     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center px-6">
+  {candles.map((candle) => (
+    <CandleCard
+      key={candle.id}
+      image={candle.image}
+      title={candle.title}
+      price={candle.price}
+    />
+  ))}
+</div>
+
     </div>
     </>
     

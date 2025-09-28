@@ -1,7 +1,7 @@
 // src/components/CandleCard.jsx
 export default function CandleCard({ image, title, price }) {
   return (
-    <div className="w-full flex flex-col items-center bg-white shadow-md rounded-xl p-3 hover:shadow-lg transition">
+    <div className="w-full max-w-[250px] flex flex-col items-center bg-white  shadow-md rounded-xl p-3 hover:shadow-lg transition">
       <img
         src={image}
         alt={title}
